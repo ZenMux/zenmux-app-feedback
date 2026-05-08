@@ -68,21 +68,21 @@ MClaw 是 ZenMux 上的移动端原生 AI Agent 协作能力。它把云端大�
 <table>
   <tr>
     <td align="center" width="33%">
-      <img src=".asset/Zenmux_feizhu.png" alt="飞猪技能预定酒店演示" width="260">
+      <img src=".asset/zenmux_feizhu.png" alt="飞猪技能预定酒店演示" width="260">
       <br>
       <strong>飞猪技能预定酒店</strong>
       <br>
       <sub>理解需求、询问偏好，并推进到可执行流程。</sub>
     </td>
     <td align="center" width="33%">
-      <img src="./asset/Zenmux_photo.png" alt="系统拍照演示" width="260">
+      <img src="./asset/zenmux_photo.png" alt="系统拍照演示" width="260">
       <br>
       <strong>系统拍照</strong>
       <br>
       <sub>调用移动端拍照能力，把真实世界输入纳入工作流。</sub>
     </td>
     <td align="center" width="33%">
-      <img src="./asset/Zenmux_vedio.png" alt="系统录音演示" width="260">
+      <img src="./asset/zenmux_vedio.png" alt="系统录音演示" width="260">
       <br>
       <strong>系统录音</strong>
       <br>
