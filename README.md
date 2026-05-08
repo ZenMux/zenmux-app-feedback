@@ -1,13 +1,13 @@
 <div align="center">
 
-# ZenMux × MClaw
+# ZenMux x MClaw
 
-### 移动端原生 AI Agent 协作平台
+### Mobile-native AI Agent Collaboration Platform
 
-手机即主机，随走随用。  
-从简单对话到复杂协作，让 AI 在终端设备上真正拥有“手脚”。
+Your phone becomes the host, ready wherever you go.  
+From simple conversations to complex collaboration, MClaw gives AI real "hands and feet" on terminal devices.
 
-<h2>无限想象，无限可能</h2>
+<h2>Unlimited Imagination, Unlimited Possibilities</h2>
 
 <p>
   <img alt="Mobile Native" src="https://img.shields.io/badge/Mobile--Native-Agent-2EA44F?style=for-the-badge">
@@ -16,122 +16,123 @@
   <img alt="Agent Workflow" src="https://img.shields.io/badge/Workflow-Agentic-0969DA?style=for-the-badge">
 </p>
 
+**English** | [简体中文](./README.zh-CN.md)
+
 </div>
 
 ---
 
-## 一句话
+## In One Sentence
 
-**MClaw 让 ZenMux 从 AI 对话工具升级为移动端 AI Agent 平台：模型负责思考，工具负责行动，用户负责确认关键选择。**
+**MClaw upgrades ZenMux from an AI chat tool into a mobile AI Agent platform: the model thinks, tools act, and users confirm key decisions.**
 
-MClaw 是 ZenMux 上的移动端原生 AI Agent 协作能力。它把云端大模型、本地工具、移动端系统能力、技能商店和人机确认串成一个可执行的Claw平台，让用户可以**发挥无限想象力，激发无限可能**。
+MClaw is ZenMux's mobile-native AI Agent collaboration capability. It connects cloud LLMs, local tools, mobile system capabilities, the skill marketplace, and human-in-the-loop confirmation into an executable Claw platform, helping users **unleash unlimited imagination and unlock unlimited possibilities**.
 
-
-## 为什么值得关注
+## Why It Matters
 
 <table>
   <tr>
     <td width="50%">
-      <h3><img src="https://api.iconify.design/lucide:smartphone.svg?color=%232EA44F" width="22" align="absmiddle"> 数据在手，隐私无忧</h3>
-      <p>Agent 直接运行在移动端，文件、图片、录音、通知等上下文优先在端侧流转，贴近用户设备，也更尊重个人数据边界。</p>
+      <h3><img src="https://api.iconify.design/lucide:smartphone.svg?color=%232EA44F" width="22" align="absmiddle"> Data in Hand, Privacy in Mind</h3>
+      <p>Agents run directly on mobile devices. Files, images, recordings, notifications, and other context flow on-device first, staying close to the user and respecting personal data boundaries.</p>
     </td>
     <td width="50%">
-      <h3><img src="https://api.iconify.design/lucide:shield-check.svg?color=%236F42C1" width="22" align="absmiddle"> 端侧沙箱，可信执行</h3>
-      <p>通过 MClaw 可信执行引擎与端侧沙箱隔离工具运行环境，约束权限边界；涉及敏感动作时可结合 HITL 主动确认。</p>
+      <h3><img src="https://api.iconify.design/lucide:shield-check.svg?color=%236F42C1" width="22" align="absmiddle"> On-device Sandbox, Trusted Execution</h3>
+      <p>The MClaw trusted execution engine and on-device sandbox isolate tool runtime environments and constrain permission boundaries. Sensitive actions can be paired with HITL confirmation.</p>
     </td>
   </tr>
   <tr>
     <td width="50%">
-      <h3><img src="https://api.iconify.design/lucide:brain-circuit.svg?color=%230969DA" width="22" align="absmiddle"> 多路大脑，自由切换</h3>
-      <p>结合 ZenMux 模型网关，领先 AI 模型可无缝接入，让不同任务匹配更合适的模型。</p>
+      <h3><img src="https://api.iconify.design/lucide:brain-circuit.svg?color=%230969DA" width="22" align="absmiddle"> Multiple Brains, Easy Switching</h3>
+      <p>With the ZenMux model gateway, leading AI models can be integrated seamlessly so each task can use the model that fits it best.</p>
     </td>
     <td width="50%">
-      <h3><img src="https://api.iconify.design/lucide:wrench.svg?color=%23E8601C" width="22" align="absmiddle"> 本地工具，灵活行动</h3>
-      <p>通过移动端系统工具、文件工具、联网搜索、Memory、Python、Node、Shell 等能力完成真实操作。</p>
+      <h3><img src="https://api.iconify.design/lucide:wrench.svg?color=%23E8601C" width="22" align="absmiddle"> Local Tools, Flexible Action</h3>
+      <p>MClaw can complete real actions through mobile system tools, file tools, web search, Memory, Python, Node, Shell, and more.</p>
     </td>
   </tr>
 </table>
 
-## 核心能力
+## Core Capabilities
 
-| 能力 | 说明 |
+| Capability | Description |
 | --- | --- |
-| **适配手机的轻量化 Agentic Loop** | 面向移动端优化 `LLM → 工具调用 → 响应` 的执行链路，让复杂任务可以连续推进。 |
-| **多 LLM Provider** | 结合 ZenMux 模型网关，Anthropic、OpenAI、OpenAI Compatible、Gemini 等领先 AI 模型可无缝集成。 |
-| **移动端系统工具** | 适配日历、联系人、定位、通知、电话、短信、闹钟、剪贴板、拍照、录音等移动端特色能力。 |
-| **轻量级 PC 执行环境** | 在手机上提供轻量执行环境，让海量 PC Skill 可以更自然地接入移动端 Agent 工作流。 |
-| **Workspace 记忆** | 支持 `SOUL.md`、`IDENTITY.md`、`MEMORY.md` 等长期记忆与跨会话上下文，让 Agent 更懂你。 |
-| **安全隐私** | 依托原生安全引擎处理敏感操作，让移动端隐私数据尽在“掌”中。 |
+| **Lightweight agentic loop for phones** | A mobile-optimized `LLM -> tool call -> response` execution chain that lets complex tasks keep moving forward. |
+| **Multiple LLM providers** | Through the ZenMux model gateway, Anthropic, OpenAI, OpenAI Compatible, Gemini, and other leading AI models can be integrated seamlessly. |
+| **Mobile system tools** | Adapts mobile-native capabilities such as calendar, contacts, location, notifications, phone calls, SMS, alarms, clipboard, camera, and recording. |
+| **Lightweight PC execution environment** | Provides a lightweight execution environment on the phone, allowing a large number of PC skills to connect more naturally to mobile Agent workflows. |
+| **Workspace memory** | Supports long-term memory and cross-session context such as `SOUL.md`, `IDENTITY.md`, and `MEMORY.md`, helping the Agent understand you better. |
+| **Security and privacy** | Uses a native security engine for sensitive operations, keeping mobile privacy data truly in the palm of your hand. |
 
-## 演示
+## Demos
 
 <table>
   <tr>
     <td align="center" width="33%">
-      <img src="./asset/zenmux_feizhu.png" alt="飞猪技能预定酒店演示" width="260">
+      <img src="./asset/zenmux_feizhu.png" alt="Hotel booking demo with the Fliggy skill" width="260">
       <br>
-      <strong>飞猪技能预定酒店</strong>
+      <strong>Hotel Booking with Fliggy Skill</strong>
       <br>
-      <sub>理解需求、询问偏好，并推进到可执行流程。</sub>
+      <sub>Understands requirements, asks about preferences, and moves the task toward an executable flow.</sub>
     </td>
     <td align="center" width="33%">
-      <img src="./asset/zenmux_photo.png" alt="系统拍照演示" width="260">
+      <img src="./asset/zenmux_photo.png" alt="System camera demo" width="260">
       <br>
-      <strong>系统拍照</strong>
+      <strong>System Camera</strong>
       <br>
-      <sub>调用移动端拍照能力，把真实世界输入纳入工作流。</sub>
+      <sub>Calls mobile camera capabilities and brings real-world input into the workflow.</sub>
     </td>
     <td align="center" width="33%">
-      <img src="./asset/zenmux_vedio.png" alt="系统录音演示" width="260">
+      <img src="./asset/zenmux_vedio.png" alt="System recording demo" width="260">
       <br>
-      <strong>系统录音</strong>
+      <strong>System Recording</strong>
       <br>
-      <sub>调用录音能力，为会议纪要和音频分析打基础。</sub>
+      <sub>Calls recording capabilities to support meeting notes and audio analysis.</sub>
     </td>
   </tr>
 </table>
 
-## 加入测试
+## Join the Test
 
-MClaw 能力目前仅在 **Android** 中可体验，请使用 **ZenMux Android 1.0.7 及以上版本**。
+MClaw is currently available for testing on **Android** only. Please use **ZenMux Android 1.0.7 or later**.
 
 <table>
   <tr>
     <td width="50%">
-      <h3><img src="https://api.iconify.design/lucide:bot.svg?color=%232EA44F" width="22" align="absmiddle"> Android 体验版</h3>
-      <p>下载 Android 1.0.7 以上版本，体验 MClaw 能力。</p>
+      <h3><img src="https://api.iconify.design/lucide:bot.svg?color=%232EA44F" width="22" align="absmiddle"> Android Preview</h3>
+      <p>Download Android 1.0.7 or later to experience MClaw.</p>
       <p><a href="https://github.com/ZenMux/zenmux-app-feedback/releases/latest"><strong>releases/latest</strong></a></p>
     </td>
     <td width="50%">
-      <h3><img src="https://api.iconify.design/lucide:messages-square.svg?color=%23E8601C" width="22" align="absmiddle"> 提交问题</h3>
-      <p>体验过程中遇到问题或有建议，欢迎在 GitHub Issues 中反馈。</p>
-      <p><a href="https://github.com/ZenMux/zenmux-app-feedback/issues"><strong>提交 Issue</strong></a></p>
+      <h3><img src="https://api.iconify.design/lucide:messages-square.svg?color=%23E8601C" width="22" align="absmiddle"> Submit Feedback</h3>
+      <p>If you run into issues or have suggestions while testing, please share them in GitHub Issues.</p>
+      <p><a href="https://github.com/ZenMux/zenmux-app-feedback/issues"><strong>Submit an Issue</strong></a></p>
     </td>
   </tr>
 </table>
 
-### 快速开始
+### Quick Start
 
-1. 下载并安装 ZenMux Android 1.0.7 及以上版本。
-2. 打开 ZenMux，进入 MClaw / Agent 相关入口。
-3. 尝试上传图片、处理文件、调用拍照或录音等移动端能力。
-4. 如遇问题，请在 [ZenMux Feedback Issues](https://github.com/ZenMux/zenmux-app-feedback/issues) 提交反馈。
+1. Download and install ZenMux Android 1.0.7 or later.
+2. Open ZenMux and enter the MClaw / Agent entry point.
+3. Try uploading images, processing files, using the camera, recording audio, or calling other mobile capabilities.
+4. If you encounter any issues, submit feedback in [ZenMux Feedback Issues](https://github.com/ZenMux/zenmux-app-feedback/issues).
 
-## 里程碑与后续计划
+## Milestones and Roadmap
 
-| 状态 | 事项 | 说明 |
+| Status | Item | Description |
 | --- | --- | --- |
-| <img src="https://img.shields.io/badge/BETA-开放测试-2EA44F"> | Android MClaw 能力开放体验 | Android 1.0.7 及以上版本已可体验 MClaw Agent 能力。 |
-| <img src="https://img.shields.io/badge/ROADMAP-规划中-0969DA"> | iOS 集成 | 后续将推进 iOS 侧 MClaw 能力接入，让更多移动端用户可以体验原生 Agent 工作流。 |
-| <img src="https://img.shields.io/badge/ROADMAP-规划中-0969DA"> | 更多系统工具与技能 | 持续扩展移动端系统能力、ClawHub 技能和真实业务场景。 |
-| <img src="https://img.shields.io/badge/ROADMAP-规划中-0969DA"> | 开源计划 | 后续将逐步整理 SDK、技能示例、工具桥接等内容，方便开发者共建移动端 Agent 生态。 |
+| <img src="https://img.shields.io/badge/BETA-Open%20Testing-2EA44F"> | Android MClaw preview | ZenMux Android 1.0.7 and later already support the MClaw Agent experience. |
+| <img src="https://img.shields.io/badge/ROADMAP-Planned-0969DA"> | iOS integration | iOS-side MClaw integration will be added later so more mobile users can experience native Agent workflows. |
+| <img src="https://img.shields.io/badge/ROADMAP-Planned-0969DA"> | More system tools and skills | We will continue expanding mobile system capabilities, ClawHub skills, and real business scenarios. |
+| <img src="https://img.shields.io/badge/ROADMAP-Planned-0969DA"> | Open-source plan | SDKs, skill examples, tool bridges, and related materials will be organized over time so developers can help build the mobile Agent ecosystem. |
 
-## 欢迎体验
+## Welcome to Try It
 
-MClaw 还在快速进化，我们也很想看到你会把它用在哪些场景里：
+MClaw is evolving quickly, and we would love to see what you build with it:
 
-- 让 Agent 帮你处理一组图片、整理一份文件、生成一段会议纪要。
-- 试试把订酒店、查资料、发通知、做提醒串成一个连续任务。
-- 如果你有自己的移动端 Agent 场景，欢迎在 Issue 里告诉我们。
+- Let the Agent process a batch of images, organize a file, or generate meeting notes.
+- Try chaining hotel booking, research, notifications, and reminders into one continuous task.
+- If you have your own mobile Agent scenario, share it with us in Issues.
 
-**快来体验 ZenMux × MClaw，Show 出你的场景。**
+**Try ZenMux x MClaw and show us your scenario.**
