@@ -114,9 +114,22 @@ MClaw is currently available for testing on **Android** only. Please use **ZenMu
 ### Quick Start
 
 1. Download and install ZenMux Android 1.0.7 or later.
-2. Open ZenMux and enter the MClaw / Agent entry point.
-3. Try uploading images, processing files, using the camera, recording audio, or calling other mobile capabilities.
-4. If you encounter any issues, submit feedback in [ZenMux Feedback Issues](https://github.com/ZenMux/zenmux-app-feedback/issues).
+2. Open the ZenMux app and tap the menu button in the upper-left corner to open the left sidebar.
+3. In the **Workspace** section of the sidebar, select **MClaw** to enter the MClaw chat window.
+4. Describe your task in the bottom input box to start using MClaw. You can try uploading images, processing files, using the camera, recording audio, or calling other mobile capabilities.
+5. If you encounter any issues, submit feedback in [ZenMux Feedback Issues](https://github.com/ZenMux/zenmux-app-feedback/issues).
+
+<p align="center">
+  <img src="./asset/zenmux_app_mclaw.jpg" alt="ZenMux MClaw chat window, tap the upper-left menu button" width="280">
+  <br>
+  <sub>Step 1: Tap the upper-left menu button</sub>
+</p>
+
+<p align="center">
+  <img src="./asset/zenmux_app_mclaw_menu.jpg" alt="Select MClaw in the ZenMux sidebar" width="280">
+  <br>
+  <sub>Step 2: Select MClaw in the left sidebar</sub>
+</p>
 
 ## Milestones and Roadmap
 
