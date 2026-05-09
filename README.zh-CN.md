@@ -119,17 +119,20 @@ MClaw 能力目前仅在 **Android** 中可体验，请使用 **ZenMux Android 1
 4. 在底部输入框描述你的任务，即可开始使用 MClaw 能力。你可以尝试上传图片、处理文件、调用拍照或录音等移动端能力。
 5. 如遇问题，请在 [ZenMux Feedback Issues](https://github.com/ZenMux/zenmux-app-feedback/issues) 提交反馈。
 
-<p align="center">
-  <img src="./asset/zenmux_app_mclaw.jpg" alt="ZenMux MClaw 对话窗口，点击左上角菜单按钮" width="280">
-  <br>
-  <sub>第一步：点击左上角菜单按钮</sub>
-</p>
-
-<p align="center">
-  <img src="./asset/zenmux_app_mclaw_menu.jpg" alt="在 ZenMux 左侧菜单中选择 MClaw" width="280">
-  <br>
-  <sub>第二步：在左侧菜单选择 MClaw</sub>
-</p>
+<table>
+  <tr>
+    <td align="center" width="50%">
+      <img src="./asset/zenmux_app_mclaw.jpg" alt="ZenMux MClaw 对话窗口" width="260">
+      <br>
+      <sub>点击左上角菜单按钮</sub>
+    </td>
+    <td align="center" width="50%">
+      <img src="./asset/zenmux_app_mclaw_menu.jpg" alt="在 ZenMux 左侧菜单中选择 MClaw" width="260">
+      <br>
+      <sub>在左侧菜单选择 MClaw</sub>
+    </td>
+  </tr>
+</table>
 
 ## 里程碑与后续计划
 
